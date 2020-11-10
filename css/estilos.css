@@ -1,0 +1,144 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.listas_nav {
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+    padding:10px 20px 10px 20px;
+    border-radius: 20px;
+    background-color:rgba(255,133,133,1);
+}   
+
+
+.logo{
+    height:100px;
+    cursor:pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 50px 0px 50px;
+    width: 1260px;
+    margin: auto;
+}
+
+.nav-link{
+    list-style: none;
+    display: flex;
+
+}
+
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: rgba(255,133,133,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 12px 45px;
+    margin-right: 10px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    outline: none;
+
+}
+
+button:hover {
+    background-color: #ff0d93;
+}
+
+.contenedor-inicio {
+    display: flex;
+    justify-content:center;
+    margin-top: 150px;
+}
+
+.titular  {
+    width: 30%;
+    margin: 0px 340px 0px 0px;
+}
+
+.titular h1{
+    font-size: 45px;
+    color: #133337;
+    line-height: 25px;
+    margin: 0;
+
+}
+
+.titular p{
+    text-align: justify;
+}
+
+.titular h2{
+    text-align: justify;
+    color:rgba(255,133,133,1);
+    line-height: 35px;
+    margin-top: 50px;
+}
+
+ .imagen img{
+    width:350px;
+    border-radius: 30px;
+
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: rgba(255,133,133,1);
+    text-decoration: none;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 12px 45px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;    
+
+}
+
+.boton:hover {
+    background-color:#ff0d93;
+    box-shadow: 0px 15px 20px rgba(237, 38, 144, 0.1);
+    color: #fff;
+    transform: translatex(10px);
+  }
+
+
+.xxx img{
+ width: 200px;
+
+}
+
+.figma{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 550px;
+}
+
+.logo-figma{
+    position: relative;
+    bottom: 140px;
+    right: 150px;
+    border-color: salmon;
+    }
+
+    /* FOOTER */
+
+
+
+    
